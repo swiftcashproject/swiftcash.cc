@@ -812,11 +812,15 @@ ul.social_icon li a:hover {
      color: #23262d;
 }
 
+.priceTicker {
+    letter-spacing: 2px;
+}
+
 
 /** end footer **/
 
 @media (min-width: 992px) {
-        .text-bgp {
+    .text-bgp {
 		padding-right: 181px!important;
 	}
 
@@ -826,9 +830,13 @@ ul.social_icon li a:hover {
 }
 
 @media (max-width: 575px) {
-        .divTyper {
-                padding-right: 70px;
-        }
+    .responsive_false {
+		display: none;
+	}
+    
+    .divTyper {
+            padding-right: 70px;
+    }
 
 	.coingecko {
 		width: 94%;
@@ -836,6 +844,10 @@ ul.social_icon li a:hover {
 }
 
 @media (max-width: 375px) {
+    .responsive_false {
+		display: none;
+	}
+    
 	.bLogo {
 		height: 78px;
 	}
